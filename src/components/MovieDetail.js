@@ -5,7 +5,7 @@ const MovieDetail = ({movie}) => {
   return (
 
     <div>
-        <li><b>Star Wars:{movie.title} </b></li>
+        <li ><b>Star Wars:{movie.title} </b></li>
         <button type="submit">Show Characters</button>
     </div>
     

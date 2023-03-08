@@ -6,7 +6,7 @@ const MovieList = ({movies}) => {
 
     const movieItems = movies.sort((a, b) => a.episode_id > b.episode_id ? 1 : -1)
     .map((movie) => {
-        return <MovieDetail movie={movie}/>
+        return <MovieDetail key={movie.episode_id} movie={movie} />
       })
 
 
